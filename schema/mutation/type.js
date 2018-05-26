@@ -1,10 +1,10 @@
 const Mutation = `
   input applicationInput {
     name: String!
-    category: String
+    description: String!
     repository: String
-    hash: String
-    slug: String
+    datHash: String!
+    appUrl: String
   }
   type Mutation {
     applicationMessage(input: applicationInput): Application

@@ -1,10 +1,8 @@
 export default {
   name: (msg) => msg.value.content.application.name,
   author: (msg) => msg.value.author,
-  key: (msg) => msg.key,
-  category: (msg) => msg.value.content.application.category,
+  description: (msg) => msg.value.content.application.description,
   repository: (msg) => msg.value.content.application.repository,
-  hash: (msg) => msg.value.content.application.hash,
-  slug: (msg) => msg.value.content.application.slug,
-  type: (msg) => msg.value.content.type,
+  datHash: (msg) => msg.value.content.application.datHash,
+  appUrl: (msg) => msg.value.content.application.appUrl,
 }

@@ -1,13 +1,11 @@
 const Application = `
   type Application {
     name: String!
+    description: String!
     author: String!
-    key: ID
-    category: String
     repository: String
-    hash: String
-    slug: String
-    type: String!
+    datHash: String
+    appUrl: String
   }
 `
 module.exports = () => [Application]
