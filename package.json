@@ -1,6 +1,6 @@
 {
   "name": "apphub-graphql",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Open App Hub types for GraphQL",
   "main": "index.js",
   "scripts": {
